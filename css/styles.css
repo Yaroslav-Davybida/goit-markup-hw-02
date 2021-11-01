@@ -1,0 +1,106 @@
+ :root{
+
+    --header-color: #E5E5E5;
+    --primari-text-color: #212121 ; 
+    --title-text-color: #757575;
+    --accent-color: #2196F3;
+}
+body{
+    color:var(--primari-text-color);
+    background-color:var(--header-color);
+    font-family:Roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+ul{
+    list-style: none;
+}
+/* навігація */
+.logo{
+    font-family: Raleway;
+    font: style 400px;;
+    font-size: 26px;
+    line-height:1.2;
+    color: var(--primari-text-color); 
+}
+.logo:hover,
+.logo:focus{
+    color: var(--accent-color);
+}
+.nav-link{
+    color: var(--primari-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+}
+.nav-link:hover,
+.nav-link:focus{
+    color: var(--accent-color);
+}
+.nav-contact{
+    color: var(--title-text-color);
+}
+.nav-contact:hover,
+.nav-contact:focus{
+    color: var(--accent-color);
+}
+ .nav-link.current{
+    color: var(--accent-color);
+}
+/* герой */
+.hero-title{
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 44px;
+    line-height:1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+/* секції */
+.title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height:1.7;
+    text-align: center;
+}
+.section-title{
+    font-size: 14px;
+    line-height:1.1;
+    text-transform: uppercase;
+}
+.section-text{
+    color: var(--title-text-color);
+    font-size: 14px;
+    line-height: 1.8;
+}
+/* наша команда */
+.time-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height:1.2;
+}
+/* footer */
+address{
+    color:#FFFFFF;
+}
+/* портфоліо */
+.button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height:1.6;
+}
+.button:focus,
+.button:hover{
+    color: var(--accent-color);
+}
+.project-title{
+    font-weight: bold;
+    font-size: 18px;
+    line-height:2;    
+    letter-spacing: 0.06em;
+}
+.project-text{
+    color:var(--title-text-color);
+    font-size: 16px;
+    line-height:1.9;
+}
